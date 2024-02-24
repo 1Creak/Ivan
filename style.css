@@ -79,6 +79,7 @@ footer p {
 }
 .product{
     display: flex;
+        justify-content: center;
 }
 .product img{
     height: 500px;
@@ -100,4 +101,7 @@ nav a{
     background-color: grey;
 }
 
-
+.info{
+        background-color: gray;
+    padding: 20px;
+}
