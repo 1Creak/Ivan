@@ -1,107 +1,51 @@
-body {
-    font-family: sans-serif;
-    background-color: darkred;
+*{ margin: 0;
+   padding: 0;
 }
+header img{ width:150px;
 
-header {
-    justify-content: space-between;
-    padding: ;
-    margin-bottom: 20px;
 }
-
-.button {
-    background-color: #36bbce;
-    color: black;
+header{
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+header a{
     text-decoration: none;
-    padding: 15px;
-    font-size: 24px;
-    border-radius: 10px;
-}
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 30px;
 
-nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
-}
 
-.nav-link {
-    font-size: 24px;
-    color: black;
-    text-decoration: none;
 }
+main img{
+    
 
-h1 {
-    text-align: center;
-    color: black;
-    font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
 }
-
-p {
-    font-size: 24px;
+h1{
+    color: red;
 }
-
-.info {
-    flex-wrap: wrap;
-    margin: 0px;
+div{ 
+    
 }
-
-article {
-    background-color: white;
-    padding: ;
-    width: 400px;
-    margin: ;
-}
-
-.article-but {
-    text-decoration: none;
-    background-color: grey;
-    color: black;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px 75px 10px 75px;
-}
-
-footer {
-    background-color: white;
-    padding: ;
-}
-
-footer a {
-    margin-right: ;
-}
-
-footer p {
-    font-size: 24px;
+footer{
+padding: 30px;
+ background-color: rgb(85, 85, 85);
+ color: rgb(0, 0, 0);
+ text-align: center;
 }
 .product{
     display: flex;
-        justify-content: center;
-    margin: 25px 0;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}h1{
+    text-align: center;
 }
-.product img{
-    height: 500px;
-    width: 439px;
-}
-header img{
-    height: 257px;
-    width: 200px;
-    background-color: darkred;
-}
-h3{
-    text-align: right;
-}
-header{
-    display: flex;
-    align-items: center;
-}
-nav a{
-    background-color: grey;
-}
-
-.info{
-        background-color: gray;
-    padding: 20px;
+p{
+    background-color: rgb(255, 210, 173);
 }
